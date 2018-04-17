@@ -2,7 +2,8 @@
 
 hydra-user-service for a user.
 
-	-The External Controller is used for receiving requests and sending responses.
+	-The Controller package is used for receiving requests and sending responses and consists of 4 classes.
+		-These clases are UsersByIdController.java, UsersByBatches.java, UsersByRole.java, and UsersController.java.
 	
 	-The service is used for connecting the controller with the repository methods.
 		-This service is then used for creating and implementing business logic.
