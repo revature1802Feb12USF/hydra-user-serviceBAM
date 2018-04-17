@@ -4,9 +4,6 @@ import static org.hamcrest.CoreMatchers.equalTo;
 
 import org.junit.Test;
 
-import com.revature.beans.BamUser;
-
-import antlr.collections.List;
 import io.restassured.RestAssured;
 
 /**
