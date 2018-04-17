@@ -30,7 +30,7 @@ public class UsersByBatchTests {
 		RestAssured.given().pathParam("batchId", 1234)
 			.get("http://localhost:9001/api/v2/users/batches/{batchId}")
 			.then()
-			.body("[0].firstName", equalTo("Matt"));
+			.body("[0].firstName", equalTo("Jason"));
 	}
 	
 	/**
