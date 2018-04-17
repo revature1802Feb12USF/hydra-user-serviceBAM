@@ -44,7 +44,7 @@ public class UsersByRoleTests {
 
 		RestAssured.get("http://localhost:9001/api/v2/users/associates")
 			.then()
-			.body("[0].firstName", equalTo("Gale"));
+			.body("[0].firstName", equalTo("Hurri"));
 	}
 	
 }
